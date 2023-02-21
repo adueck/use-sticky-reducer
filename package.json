@@ -1,0 +1,48 @@
+{
+  "name": "use-sticky-reducer",
+  "version": "1.0.0",
+  "description": "Custom React hooks to persist state on browser with the useState and useReducer patterns",
+  "type": "module",
+  "module": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:adueck/use-sticky-reducer.git"
+  },
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "Adam Dueck",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "react": "^18.2.0",
+    "typescript": "^4.9.5"
+  },
+  "keywords": [
+    "react",
+    "localStorage state",
+    "local storage react",
+    "storage",
+    "useState",
+    "persist state",
+    "persist storage",
+    "persistent storage",
+    "persistent state",
+    "useStickyState",
+    "useStickReducer",
+    "reducer"
+  ],
+  "bugs": {
+    "url": "https://github.com/adueck/use-sticky-reducer/issues"
+  },
+  "homepage": "https://github.com/adueck/use-sticky-reducer#readme",
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  }
+}
